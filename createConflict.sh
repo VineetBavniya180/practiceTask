@@ -8,14 +8,15 @@ if [ "$branchName" != "forMerge" ]; then
 else
     echo "Name: HarshitSir" > file1
     git add .
-    git commit -m "One Try 5"
+    git commit -m "One Try 7"
     git push origin forMerge 
 
     git checkout main 
     echo "Name: Nikitama'am" > file1
     git add .
-    git commit -m "create conflict another try 6"
+    git commit -m "create conflict another try 7"
     git push origin main    
+    git merge forMerge
 
 fi
 

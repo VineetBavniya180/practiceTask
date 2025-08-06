@@ -6,13 +6,13 @@ echo "$branchName"
 if [ "$branchName" != "forMerge" ]; then 
     echo "please change branch and save code in forMerge branch";
 else
-    echo "Name: HarshalSir" > file1
+    echo "Name: HarshitSir" > file1
     git add .
     git commit -m "One Try 5"
     git push origin forMerge 
 
     git checkout main 
-    echo "Name: NikhilSir" > file1
+    echo "Name: Nikitama'am" > file1
     git add .
     git commit -m "create conflict another try 6"
     git push origin main    
